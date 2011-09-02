@@ -7,4 +7,7 @@
         <item>Basic</item>
         <item>Advanced</item>
     </string-array>
+    <string-array name="basic_list_array">
+        <item id="0">Hello World</item>
+    </string-array>
 </resources>

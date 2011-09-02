@@ -11,14 +11,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class NaroidActivity extends ListActivity {
+public class NaroidBasicActivity extends ListActivity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
 
-    	String[] main_list = getResources().getStringArray(R.array.main_list_array);
-    	setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, main_list));
+    	String[] basic_list = getResources().getStringArray(R.array.basic_list_array);
+    	setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, basic_list));
 
     	ListView lv = getListView();
     	lv.setTextFilterEnabled(true);
@@ -32,12 +32,12 @@ public class NaroidActivity extends ListActivity {
         Object o = l.getItemAtPosition(position);
     	String text = o.toString();
 
-    	if (id == 0/*text.equals("Basic")*/) {
+    	if (id == 0) {
     		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), NaroidBasicActivity.class);
+    		intent.setClass(getApplicationContext(), HelloWorldActivity.class);
     		startActivity(intent);
     	} else {
-    		Toast.makeText(getApplicationContext(), text + " samples are not ready yet...",
+    		Toast.makeText(getApplicationContext(), "Sorry, you clicked unknown item: " + text,
     				Toast.LENGTH_SHORT).show();
     	}
     }
@@ -58,7 +58,7 @@ public class NaroidActivity extends ListActivity {
         // Handle item selection
         switch (item.getItemId()) {
         case R.id.quit:
-        	NaroidActivity.this.finish();
+        	NaroidBasicActivity.this.finish();
             return true;
         default:
             return super.onOptionsItemSelected(item);
