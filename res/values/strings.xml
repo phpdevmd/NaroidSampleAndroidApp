@@ -2,4 +2,9 @@
 <resources>
     <string name="hello_world">Hello World!</string>
     <string name="app_name">Naroid - Sample Android App</string>
+    <string name="app_name_basic">Naroid - Sample Android App - Basic</string>
+    <string-array name="main_list_array">
+        <item>Basic</item>
+        <item>Advanced</item>
+    </string-array>
 </resources>
