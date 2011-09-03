@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello_world">Hello World!</string>
     <string name="app_name">Naroid - Sample Android App</string>
     <string name="app_name_basic">Naroid - Sample Android App - Basic</string>
     <string-array name="main_list_array">
@@ -8,6 +7,25 @@
         <item>Advanced</item>
     </string-array>
     <string-array name="basic_list_array">
-        <item id="0">Hello World</item>
+        <item>Hello World</item>
+        <item>Menu</item>
     </string-array>
+    <string name="hello_world">Hello World!</string>
+    <string name="menu_page_content">1. Create file <i>/res/menu/main.xml</i> with the following content:\n\n<i>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;menu xmlns:android=\"http://schemas.android.com/apk/res/android\"&gt;\n\t&lt;item android:title=\"Quit\" android:id=\"@+id/quit\"&gt;&lt;/item&gt;\n&lt;/menu&gt;</i>\n\n\n2. Add following methods into your activity class:\n\n<i>\t@Override\n
+\tpublic boolean onCreateOptionsMenu(Menu menu) {\n
+\t\tMenuInflater inflater = getMenuInflater();\n
+\t\tinflater.inflate(R.menu.main, menu);\n
+\t\treturn true;\n
+\t}\n
+\t@Override\n
+\tpublic boolean onOptionsItemSelected(MenuItem item) {\n
+\t\t// Handle item selection\n
+\t\tswitch (item.getItemId()) {\n
+\t\tcase R.id.quit:\n
+\t\t\tNaroidActivity.this.finish();\n
+\t\t\treturn true;\n
+\t\tdefault:\n
+\t\t\treturn super.onOptionsItemSelected(item);\n
+\t\t}\n
+\t}</i>\n\n\nExpected more steps? Sorry to disappoint :)</string>
 </resources>
