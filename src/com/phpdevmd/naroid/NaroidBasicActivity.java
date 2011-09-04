@@ -44,6 +44,10 @@ public class NaroidBasicActivity extends ListActivity {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ScrollbarActivity.class);
     		startActivity(intent);
+    	} else if (id == 3) {
+    		Intent intent = new Intent();
+    		intent.setClass(getApplicationContext(), ListViewActivity.class);
+    		startActivity(intent);
     	} else {
     		Toast.makeText(getApplicationContext(), "Sorry, you clicked unknown item: " + text,
     				Toast.LENGTH_SHORT).show();

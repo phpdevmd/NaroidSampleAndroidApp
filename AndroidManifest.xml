@@ -25,6 +25,9 @@
         <activity android:name=".ScrollbarActivity"
                   android:label="@string/app_name_basic">
         </activity>
+        <activity android:name=".ListViewActivity"
+                  android:label="@string/app_name_basic">
+        </activity>
 
     </application>
 </manifest>
