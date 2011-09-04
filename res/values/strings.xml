@@ -2,11 +2,12 @@
 <resources>
     <string name="app_name">Naroid - Sample Android App</string>
     <string name="app_name_basic">Naroid - Sample Android App - Basic</string>
-    <string-array name="main_list_array">
+    <string-array name="home_list">
         <item>Basic</item>
         <item>Advanced</item>
     </string-array>
-    <string-array name="basic_list_array">
+    <string name="about_page_content">Dear Developer,\nWelcome to <b>Naroid - Sample Android App</b>.\n\nThis project is <b>open source</b>! Full source code is available at https://github.com/phpdevmd/NaroidSampleAndroidApp.\n\nYou are free to re-use and re-distribute it.\n\nDeveloped by phpdevmd@gmail.com.</string>
+    <string-array name="basic_samples">
         <item>Hello World</item>
         <item>Menu</item>
         <item>Scrollbar</item>

@@ -6,14 +6,17 @@
     <uses-sdk android:minSdkVersion="7" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
-        <activity android:name=".NaroidActivity"
+        <activity android:name=".HomeActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NaroidBasicActivity"
+        <activity android:name=".AboutActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".BasicSamplesActivity"
                   android:label="@string/app_name_basic">
         </activity>
         <activity android:name=".HelloWorldActivity"
