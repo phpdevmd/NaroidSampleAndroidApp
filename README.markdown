@@ -1,4 +1,4 @@
-Dear Developer,
+Dear Developer,  
 Welcome to **Naroid - Sample Android App**.
 
 This project is **open source**!
