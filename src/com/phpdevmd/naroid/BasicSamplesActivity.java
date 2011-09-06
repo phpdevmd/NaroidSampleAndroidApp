@@ -40,7 +40,7 @@ public class BasicSamplesActivity extends BaseListActivity {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ScrollbarActivity.class);
     		startActivity(intent);
-    	} else if (id == 2) {
+    	} else if (id == 3) {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ListViewActivity.class);
     		startActivity(intent);
