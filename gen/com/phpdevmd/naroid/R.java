@@ -32,12 +32,15 @@ public final class R {
         public static final int main=0x7f060000;
     }
     public static final class string {
-        public static final int about_page_content=0x7f040002;
+        public static final int about=0x7f040003;
+        public static final int about_page_content=0x7f040004;
         public static final int app_name=0x7f040000;
         public static final int app_name_basic=0x7f040001;
-        public static final int hello_world=0x7f040003;
-        public static final int lorem_ipsum_1_line=0x7f040006;
-        public static final int menu_page_content=0x7f040004;
-        public static final int scrollbar_page_content=0x7f040005;
+        public static final int hello_world=0x7f040006;
+        public static final int home=0x7f040002;
+        public static final int lorem_ipsum_1_line=0x7f040009;
+        public static final int menu_page_content=0x7f040007;
+        public static final int scrollbar_page_content=0x7f040008;
+        public static final int unknown_item_clicked=0x7f040005;
     }
 }

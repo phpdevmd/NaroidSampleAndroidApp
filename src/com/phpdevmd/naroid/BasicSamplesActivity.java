@@ -40,13 +40,13 @@ public class BasicSamplesActivity extends BaseListActivity {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ScrollbarActivity.class);
     		startActivity(intent);
-    	} else if (id == 3) {
+    	} else if (id == 2) {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ListViewActivity.class);
     		startActivity(intent);
     	} else {
-    		Toast.makeText(getApplicationContext(), "Sorry, you clicked unknown item: " + text,
-    				Toast.LENGTH_SHORT).show();
+    		String toast_text = getResources().getString(R.string.unknown_item_clicked, text);
+    		Toast.makeText(getApplicationContext(), toast_text, Toast.LENGTH_SHORT).show();
     	}
     }
 }

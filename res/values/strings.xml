@@ -6,6 +6,8 @@
         <item>Basic</item>
         <item>Advanced</item>
     </string-array>
+    <string name="home">Home</string>
+    <string name="about">About</string>
     <string name="about_page_content">Dear Developer,\nWelcome to <b>Naroid - Sample Android App</b>.\n\nThis project is <b>open source</b>! Full source code is available at https://github.com/phpdevmd/NaroidSampleAndroidApp.\n\nYou are free to re-use and re-distribute it.\n\nDeveloped by phpdevmd@gmail.com.</string>
     <string-array name="basic_samples">
         <item>Hello World</item>
@@ -13,6 +15,7 @@
         <item>Scrollbar</item>
         <item>List View</item>
     </string-array>
+    <string name="unknown_item_clicked">Sorry, you clicked unknown item: %s.</string>
     <string name="hello_world">Hello World!</string>
     <string name="menu_page_content">1. Create file <i>/res/menu/main.xml</i> with the following content:\n\n<i>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;menu xmlns:android=\"http://schemas.android.com/apk/res/android\"&gt;\n\t&lt;item android:title=\"Quit\" android:id=\"@+id/quit\"&gt;&lt;/item&gt;\n&lt;/menu&gt;</i>\n\n\n2. Add following methods into your activity class:\n\n<i>\t@Override\n\tpublic boolean onCreateOptionsMenu(Menu menu) {\n\t\tMenuInflater inflater = getMenuInflater();\n\t\tinflater.inflate(R.menu.main, menu);\n\t\treturn true;\n\t}\n\t@Override\n\tpublic boolean onOptionsItemSelected(MenuItem item) {\n\t\t// Handle item selection\n\t\tswitch (item.getItemId()) {\n\t\tcase R.id.quit:\n\t\t\tNaroidActivity.this.finish();\n\t\t\treturn true;\n\t\tdefault:\n\t\t\treturn super.onOptionsItemSelected(item);\n\t\t}\n\t}</i>\n\n\nExpected more steps? Sorry to disappoint :)</string>
     <string name="scrollbar_page_content">The main idea here is to make your <b>layout xml</b> like this:\n\n<i>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;ScrollView xmlns:android=\"http://schemas.android.com/apk/res/android\"\n\tandroid:layout_width=\"fill_parent\"\n\tandroid:layout_height=\"wrap_content\"&gt;\n\t&lt;LinearLayout\n\t\tandroid:orientation=\"vertical\"\n\t\tandroid:layout_width=\"fill_parent\"\n\t\tandroid:layout_height=\"wrap_content\"&gt;\n\t\t&lt;TextView\n\t\t\tandroid:layout_width=\"fill_parent\"\n\t\t\tandroid:layout_height=\"wrap_content\"\n\t\t\tandroid:text=\"@string/lorem_ipsum_1_line\"/&gt;\n\t&lt;/LinearLayout&gt;\n&lt;/ScrollView&gt;</i>\n\nExpected more work here? Sorry to disappoint :)\n\n</string>

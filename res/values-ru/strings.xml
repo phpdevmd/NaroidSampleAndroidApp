@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Нароид - Примерное Андроид Приложение</string>
+    <string name="app_name_basic">Нароид - Примерное Андроид Приложение - Базовые</string>
+    <string-array name="home_list">
+        <item>Базовые</item>
+        <item>Продвинутые</item>
+    </string-array>
+    <string name="home">Домашняя</string>
+    <string name="about">О Нас</string>
+    <string name="about_page_content">Уважаемый Разработчик,\nДобро пожаловать на <b>Нароид - Примерное Андроид Приложение</b>.\n\nДанный проект предоставляется <b>с открытым исходным кодом</b>! Полный исходный код доступен по адресу https://github.com/phpdevmd/NaroidSampleAndroidApp.\n\nВы можете свободно использовать и распространять его.\n\nРазработано phpdevmd@gmail.com.</string>
+    <string-array name="basic_samples">
+        <item>Привет Мир</item>
+        <item>Меню</item>
+        <item>Полоса Прокрутки</item>
+        <item>Список</item>
+    </string-array>
+    <string name="unknown_item_clicked">Простите, вы нажали на неизвестный пункт: %s.</string>
+    <string name="hello_world">Привет Мир!</string>
+    <string name="menu_page_content">1. Создайте файл <i>/res/menu/main.xml</i> со следующим содержимым:\n\n<i>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;menu xmlns:android=\"http://schemas.android.com/apk/res/android\"&gt;\n\t&lt;item android:title=\"Quit\" android:id=\"@+id/quit\"&gt;&lt;/item&gt;\n&lt;/menu&gt;</i>\n\n\n2. Добавьте следующие методы в ваш класс активности:\n\n<i>\t@Override\n\tpublic boolean onCreateOptionsMenu(Menu menu) {\n\t\tMenuInflater inflater = getMenuInflater();\n\t\tinflater.inflate(R.menu.main, menu);\n\t\treturn true;\n\t}\n\t@Override\n\tpublic boolean onOptionsItemSelected(MenuItem item) {\n\t\t// Handle item selection\n\t\tswitch (item.getItemId()) {\n\t\tcase R.id.quit:\n\t\t\tNaroidActivity.this.finish();\n\t\t\treturn true;\n\t\tdefault:\n\t\t\treturn super.onOptionsItemSelected(item);\n\t\t}\n\t}</i>\n\n\nОжидали больше шагов? Простите что разочаровали :)</string>
+    <string name="scrollbar_page_content">Главная идея - это сделать ваш <b>xml расположения</b> как здесь:\n\n<i>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;ScrollView xmlns:android=\"http://schemas.android.com/apk/res/android\"\n\tandroid:layout_width=\"fill_parent\"\n\tandroid:layout_height=\"wrap_content\"&gt;\n\t&lt;LinearLayout\n\t\tandroid:orientation=\"vertical\"\n\t\tandroid:layout_width=\"fill_parent\"\n\t\tandroid:layout_height=\"wrap_content\"&gt;\n\t\t&lt;TextView\n\t\t\tandroid:layout_width=\"fill_parent\"\n\t\t\tandroid:layout_height=\"wrap_content\"\n\t\t\tandroid:text=\"@string/lorem_ipsum_1_line\"/&gt;\n\t&lt;/LinearLayout&gt;\n&lt;/ScrollView&gt;</i>\n\nОжидали больше работы? Простите что разочаровали :)\n\n</string>
+    <string name="lorem_ipsum_1_line">Lorem ipsum dolor sit amet.</string>
+    <string-array name="countries_array"><item>Антарктида</item><item>Буркина-Фасо</item><item>Канада</item><item>Китай</item><item>Дания</item><item>Египет</item><item>Финляндия</item><item>Франция</item><item>Германия</item><item>Гаити</item><item>Гонконг</item><item>Индия</item><item>Италия</item><item>Япония</item><item>Кения</item><item>Люксембург</item><item>Мексика</item><item>Молдова</item><item>Нидерланды</item><item>Оман</item><item>Польша</item><item>Россия</item><item>Испания</item><item>Тайвань</item><item>Великобритания</item><item>Соединенные Штаты</item><item>Венесуэла</item><item>Западная Сахара</item><item>Йемен</item><item>Зимбабве</item></string-array>
+</resources>
