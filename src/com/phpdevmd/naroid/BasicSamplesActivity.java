@@ -34,13 +34,17 @@ public class BasicSamplesActivity extends BaseListActivity {
     		startActivity(intent);
     	} else if (id == 1) {
     		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), MenuActivity.class);
+    		intent.setClass(getApplicationContext(), AutoLinksActivity.class);
     		startActivity(intent);
     	} else if (id == 2) {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ScrollbarActivity.class);
     		startActivity(intent);
     	} else if (id == 3) {
+    		Intent intent = new Intent();
+    		intent.setClass(getApplicationContext(), MenuActivity.class);
+    		startActivity(intent);
+    	} else if (id == 4) {
     		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ListViewActivity.class);
     		startActivity(intent);
