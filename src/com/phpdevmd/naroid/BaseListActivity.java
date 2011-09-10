@@ -24,7 +24,7 @@ public class BaseListActivity extends ListActivity {
         // Handle item selection
         switch (item.getItemId()) {
         case R.id.home:
-    		intent.setClass(getApplicationContext(), HomeActivity.class);
+    		intent.setClass(getApplicationContext(), LauncherActivity.class);
     		startActivity(intent);
             return true;
         case R.id.about:
