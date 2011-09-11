@@ -16,6 +16,7 @@
         <item>Полоса Прокрутки</item>
         <item>Меню</item>
         <item>Линейный Макет</item>
+        <item>Относительный Макет</item>
         <item>Список</item>
     </string-array>
     <string-array name="advanced_samples">
@@ -29,6 +30,7 @@
     <string name="menu_page_content">1. Создайте файл <i>/res/menu/main.xml</i> со следующим содержимым:\n\n<i>&lt;?xml version=\"1.0\" encoding=\"utf-8\"?&gt;\n&lt;menu xmlns:android=\"http://schemas.android.com/apk/res/android\"&gt;\n\t&lt;item android:title=\"Quit\" android:id=\"@+id/quit\"&gt;&lt;/item&gt;\n&lt;/menu&gt;</i>\n\n\n2. Добавьте следующие методы в ваш класс активности:\n\n<i>\t@Override\n\tpublic boolean onCreateOptionsMenu(Menu menu) {\n\t\tMenuInflater inflater = getMenuInflater();\n\t\tinflater.inflate(R.menu.main, menu);\n\t\treturn true;\n\t}\n\t@Override\n\tpublic boolean onOptionsItemSelected(MenuItem item) {\n\t\t// Handle item selection\n\t\tswitch (item.getItemId()) {\n\t\tcase R.id.quit:\n\t\t\tNaroidActivity.this.finish();\n\t\t\treturn true;\n\t\tdefault:\n\t\t\treturn super.onOptionsItemSelected(item);\n\t\t}\n\t}</i>\n\n\nОжидали больше шагов? Простите что разочаровали :)</string>
     <string name="blue">синий</string><string name="green">зелёный</string><string name="red">красный</string><string name="yellow">желтый</string>
     <string name="row_one">строка один</string><string name="row_two">строка два</string><string name="row_three">строка три</string><string name="row_four">строка четыре</string>
+    <string name="type_here">Введите текст:</string><string name="OK">ОК</string><string name="Cancel">Отменить</string>
     <string-array name="countries_array"><item>Антарктида</item><item>Буркина-Фасо</item><item>Канада</item><item>Китай</item><item>Дания</item><item>Египет</item><item>Финляндия</item><item>Франция</item><item>Германия</item><item>Гаити</item><item>Гонконг</item><item>Индия</item><item>Италия</item><item>Япония</item><item>Кения</item><item>Люксембург</item><item>Мексика</item><item>Молдова</item><item>Нидерланды</item><item>Оман</item><item>Польша</item><item>Россия</item><item>Испания</item><item>Тайвань</item><item>Великобритания</item><item>Соединенные Штаты</item><item>Венесуэла</item><item>Западная Сахара</item><item>Йемен</item><item>Зимбабве</item></string-array>
     <string name="localization_page_content">Локализация заключается лишь в создании альтернативного набора ресурсов в папке <b>res</b>, и андроид автоматически подставит их в соответствующем устройстве.\n\nНапример, чтобы перевести ваше приложение на другой язык, создайте файл <b>/res/values-(ISO 639-1 language code)/strings.xml</b> с переведенным текстом (к примеру values-ru, values-en-rGB и т.д.). Пожалуйста не забудьте создать и ресурс по умолчанию (к примеру /res/values/strings.xml).\n\nЗа деталями обращайтесь на http://developer.android.com/guide/topics/resources/localization.html</string>
 </resources>
