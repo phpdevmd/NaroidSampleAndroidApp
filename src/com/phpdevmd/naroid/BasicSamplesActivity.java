@@ -46,6 +46,10 @@ public class BasicSamplesActivity extends BaseListActivity {
     		startActivity(intent);
     	} else if (id == 4) {
     		Intent intent = new Intent();
+    		intent.setClass(getApplicationContext(), LinearLayoutActivity.class);
+    		startActivity(intent);
+    	} else if (id == 5) {
+    		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ListViewActivity.class);
     		startActivity(intent);
     	} else {

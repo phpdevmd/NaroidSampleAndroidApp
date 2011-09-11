@@ -29,9 +29,10 @@ public final class R {
         public static final int about=0x7f030000;
         public static final int auto_links=0x7f030001;
         public static final int hello_world=0x7f030002;
-        public static final int localization=0x7f030003;
-        public static final int menu=0x7f030004;
-        public static final int scrollbar=0x7f030005;
+        public static final int linear_layout=0x7f030003;
+        public static final int localization=0x7f030004;
+        public static final int menu=0x7f030005;
+        public static final int scrollbar=0x7f030006;
     }
     public static final class menu {
         public static final int main=0x7f060000;
@@ -43,12 +44,20 @@ public final class R {
         public static final int app_name_advanced=0x7f040002;
         public static final int app_name_basic=0x7f040001;
         public static final int auto_links_page_content=0x7f040008;
+        public static final int blue=0x7f04000c;
+        public static final int green=0x7f04000d;
         public static final int hello_world=0x7f040007;
         public static final int home=0x7f040003;
-        public static final int localization_page_content=0x7f04000c;
-        public static final int lorem_ipsum_1_line=0x7f04000b;
-        public static final int menu_page_content=0x7f04000a;
+        public static final int localization_page_content=0x7f040014;
+        public static final int lorem_ipsum_1_line=0x7f04000a;
+        public static final int menu_page_content=0x7f04000b;
+        public static final int red=0x7f04000e;
+        public static final int row_four=0x7f040013;
+        public static final int row_one=0x7f040010;
+        public static final int row_three=0x7f040012;
+        public static final int row_two=0x7f040011;
         public static final int scrollbar_page_content=0x7f040009;
         public static final int unknown_item_clicked=0x7f040006;
+        public static final int yellow=0x7f04000f;
     }
 }
