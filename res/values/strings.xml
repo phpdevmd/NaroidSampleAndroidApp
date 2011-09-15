@@ -17,6 +17,7 @@
         <item>Menu</item>
         <item>Linear Layout</item>
         <item>Relative Layout</item>
+        <item>Table Layout</item>
         <item>List View</item>
     </string-array>
     <string-array name="advanced_samples">
@@ -31,6 +32,7 @@
     <string name="blue">blue</string><string name="green">green</string><string name="red">red</string><string name="yellow">yellow</string>
     <string name="row_one">row one</string><string name="row_two">row two</string><string name="row_three">row three</string><string name="row_four">row four</string>
     <string name="type_here">Type here:</string><string name="OK">OK</string><string name="Cancel">Cancel</string>
+    <string name="Open">Open...</string><string name="Ctrl_O">Ctrl-O</string><string name="Save">Save...</string><string name="Ctrl_S">Ctrl-S</string><string name="Save_As">Save As...</string><string name="Ctrl_Shift_S">Ctrl-Shift-S</string><string name="Import">Import...</string><string name="X">X</string><string name="Export">Export...</string><string name="Ctrl_E">Ctrl-E</string><string name="Quit">Quit</string>
     <string-array name="countries_array"><item>Antarctica</item><item>Burkina Faso</item><item>Canada</item><item>China</item><item>Denmark</item><item>Egypt</item><item>Finland</item><item>France</item><item>Germany</item><item>Haiti</item><item>Hong Kong</item><item>India</item><item>Italy</item><item>Japan</item><item>Kenya</item><item>Luxembourg</item><item>Mexico</item><item>Moldova</item><item>Netherlands</item><item>Oman</item><item>Poland</item><item>Russia</item><item>Spain</item><item>Taiwan</item><item>United Kingdom</item><item>United States</item><item>Venezuela</item><item>Western Sahara</item><item>Yemen</item><item>Zimbabwe</item></string-array>
     <string name="localization_page_content">Localization is just about creating an alternative set of resources in <b>res</b> folder, and android will automatically substitute it in the appropriate device.\n\nFor example, to translate your application into another language, create <b>/res/values-(ISO 639-1 language code)/strings.xml</b> file with translated strings (e.g. values-ru, values-en-rGB and so on). Please make sure to include a default resource (e.g. /res/values/strings.xml).\n\nSee http://developer.android.com/guide/topics/resources/localization.html for more information.</string>
 </resources>

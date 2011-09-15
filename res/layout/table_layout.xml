@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Open"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/Ctrl_O"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Save"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/Ctrl_S"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Save_As"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/Ctrl_Shift_S"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="@string/X"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/Import"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/X"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/Export"
+            android:padding="3dip" />
+        <TextView
+            android:text="@string/Ctrl_E"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="@string/Quit"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>

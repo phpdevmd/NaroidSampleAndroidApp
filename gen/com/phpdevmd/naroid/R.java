@@ -37,13 +37,25 @@ public final class R {
         public static final int menu=0x7f030005;
         public static final int relative_layout=0x7f030006;
         public static final int scrollbar=0x7f030007;
+        public static final int table_layout=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f060000;
     }
     public static final class string {
         public static final int Cancel=0x7f040016;
+        public static final int Ctrl_E=0x7f040020;
+        public static final int Ctrl_O=0x7f040018;
+        public static final int Ctrl_S=0x7f04001a;
+        public static final int Ctrl_Shift_S=0x7f04001c;
+        public static final int Export=0x7f04001f;
+        public static final int Import=0x7f04001d;
         public static final int OK=0x7f040015;
+        public static final int Open=0x7f040017;
+        public static final int Quit=0x7f040021;
+        public static final int Save=0x7f040019;
+        public static final int Save_As=0x7f04001b;
+        public static final int X=0x7f04001e;
         public static final int about=0x7f040004;
         public static final int about_page_content=0x7f040005;
         public static final int app_name=0x7f040000;
@@ -54,7 +66,7 @@ public final class R {
         public static final int green=0x7f04000d;
         public static final int hello_world=0x7f040007;
         public static final int home=0x7f040003;
-        public static final int localization_page_content=0x7f040017;
+        public static final int localization_page_content=0x7f040022;
         public static final int lorem_ipsum_1_line=0x7f04000a;
         public static final int menu_page_content=0x7f04000b;
         public static final int red=0x7f04000e;
