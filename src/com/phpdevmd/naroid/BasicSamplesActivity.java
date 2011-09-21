@@ -58,6 +58,14 @@ public class BasicSamplesActivity extends BaseListActivity {
     		startActivity(intent);
     	} else if (id == 7) {
     		Intent intent = new Intent();
+    		intent.setClass(getApplicationContext(), GridViewActivity.class);
+    		startActivity(intent);
+    	} else if (id == 8) {
+    		Intent intent = new Intent();
+    		intent.setClass(getApplicationContext(), TabLayoutActivity.class);
+    		startActivity(intent);
+    	} else if (id == 9) {
+    		Intent intent = new Intent();
     		intent.setClass(getApplicationContext(), ListViewActivity.class);
     		startActivity(intent);
     	} else {
