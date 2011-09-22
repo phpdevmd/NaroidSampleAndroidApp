@@ -9,10 +9,12 @@ package com.phpdevmd.naroid;
 
 public final class R {
     public static final class array {
-        public static final int advanced_samples=0x7f050002;
+        public static final int advanced_samples=0x7f050004;
         public static final int basic_samples=0x7f050001;
-        public static final int countries_array=0x7f050003;
+        public static final int countries_array=0x7f050005;
         public static final int launcher_list=0x7f050000;
+        public static final int layouts_views=0x7f050002;
+        public static final int widgets_other_views=0x7f050003;
     }
     public static final class attr {
     }
@@ -41,73 +43,79 @@ public final class R {
         public static final int sample_7=0x7f020015;
     }
     public static final class id {
-        public static final int about=0x7f070005;
-        public static final int entry=0x7f070002;
-        public static final int gridview=0x7f070000;
-        public static final int home=0x7f070004;
-        public static final int label=0x7f070001;
-        public static final int ok=0x7f070003;
+        public static final int about=0x7f070007;
+        public static final int dateDisplay=0x7f070000;
+        public static final int entry=0x7f070004;
+        public static final int gridview=0x7f070002;
+        public static final int home=0x7f070006;
+        public static final int label=0x7f070003;
+        public static final int ok=0x7f070005;
+        public static final int pickDate=0x7f070001;
     }
     public static final class layout {
         public static final int about=0x7f030000;
         public static final int auto_links=0x7f030001;
-        public static final int grid_view=0x7f030002;
-        public static final int hello_world=0x7f030003;
-        public static final int linear_layout=0x7f030004;
-        public static final int localization=0x7f030005;
-        public static final int menu=0x7f030006;
-        public static final int relative_layout=0x7f030007;
-        public static final int scrollbar=0x7f030008;
-        public static final int tab_layout=0x7f030009;
-        public static final int tablayout_copy=0x7f03000a;
-        public static final int tablayout_cut=0x7f03000b;
-        public static final int tablayout_paste=0x7f03000c;
-        public static final int table_layout=0x7f03000d;
+        public static final int date_picker=0x7f030002;
+        public static final int grid_view=0x7f030003;
+        public static final int hello_world=0x7f030004;
+        public static final int linear_layout=0x7f030005;
+        public static final int localization=0x7f030006;
+        public static final int menu=0x7f030007;
+        public static final int relative_layout=0x7f030008;
+        public static final int scrollbar=0x7f030009;
+        public static final int tab_layout=0x7f03000a;
+        public static final int tablayout_copy=0x7f03000b;
+        public static final int tablayout_cut=0x7f03000c;
+        public static final int tablayout_paste=0x7f03000d;
+        public static final int table_layout=0x7f03000e;
     }
     public static final class menu {
         public static final int main=0x7f060000;
     }
     public static final class string {
-        public static final int Cancel=0x7f040016;
-        public static final int Copy=0x7f040023;
-        public static final int Ctrl_E=0x7f040020;
-        public static final int Ctrl_O=0x7f040018;
-        public static final int Ctrl_S=0x7f04001a;
-        public static final int Ctrl_Shift_S=0x7f04001c;
-        public static final int Cut=0x7f040022;
-        public static final int Export=0x7f04001f;
-        public static final int Import=0x7f04001d;
-        public static final int OK=0x7f040015;
-        public static final int Open=0x7f040017;
-        public static final int Paste=0x7f040024;
-        public static final int Quit=0x7f040021;
-        public static final int Save=0x7f040019;
-        public static final int Save_As=0x7f04001b;
-        public static final int X=0x7f04001e;
-        public static final int about=0x7f040004;
-        public static final int about_page_content=0x7f040005;
+        public static final int Cancel=0x7f040018;
+        public static final int Change_date=0x7f04002a;
+        public static final int Copy=0x7f040025;
+        public static final int Ctrl_E=0x7f040022;
+        public static final int Ctrl_O=0x7f04001a;
+        public static final int Ctrl_S=0x7f04001c;
+        public static final int Ctrl_Shift_S=0x7f04001e;
+        public static final int Cut=0x7f040024;
+        public static final int Export=0x7f040021;
+        public static final int Import=0x7f04001f;
+        public static final int OK=0x7f040017;
+        public static final int Open=0x7f040019;
+        public static final int Paste=0x7f040026;
+        public static final int Quit=0x7f040023;
+        public static final int Save=0x7f04001b;
+        public static final int Save_As=0x7f04001d;
+        public static final int X=0x7f040020;
+        public static final int about=0x7f040006;
+        public static final int about_page_content=0x7f040007;
         public static final int app_name=0x7f040000;
-        public static final int app_name_advanced=0x7f040002;
+        public static final int app_name_advanced=0x7f040004;
         public static final int app_name_basic=0x7f040001;
-        public static final int auto_links_page_content=0x7f040008;
-        public static final int blue=0x7f04000c;
-        public static final int green=0x7f04000d;
-        public static final int hello_world=0x7f040007;
-        public static final int home=0x7f040003;
-        public static final int localization_page_content=0x7f040028;
-        public static final int lorem_ipsum_1_line=0x7f04000a;
-        public static final int menu_page_content=0x7f04000b;
-        public static final int red=0x7f04000e;
-        public static final int row_four=0x7f040013;
-        public static final int row_one=0x7f040010;
-        public static final int row_three=0x7f040012;
-        public static final int row_two=0x7f040011;
-        public static final int scrollbar_page_content=0x7f040009;
-        public static final int tablayout_copy_page_content=0x7f040026;
-        public static final int tablayout_cut_page_content=0x7f040025;
-        public static final int tablayout_paste_page_content=0x7f040027;
-        public static final int type_here=0x7f040014;
-        public static final int unknown_item_clicked=0x7f040006;
-        public static final int yellow=0x7f04000f;
+        public static final int app_name_basic_layouts=0x7f040002;
+        public static final int app_name_basic_widgets=0x7f040003;
+        public static final int auto_links_page_content=0x7f04000a;
+        public static final int blue=0x7f04000e;
+        public static final int green=0x7f04000f;
+        public static final int hello_world=0x7f040009;
+        public static final int home=0x7f040005;
+        public static final int localization_page_content=0x7f04002b;
+        public static final int lorem_ipsum_1_line=0x7f04000c;
+        public static final int menu_page_content=0x7f04000d;
+        public static final int red=0x7f040010;
+        public static final int row_four=0x7f040015;
+        public static final int row_one=0x7f040012;
+        public static final int row_three=0x7f040014;
+        public static final int row_two=0x7f040013;
+        public static final int scrollbar_page_content=0x7f04000b;
+        public static final int tablayout_copy_page_content=0x7f040028;
+        public static final int tablayout_cut_page_content=0x7f040027;
+        public static final int tablayout_paste_page_content=0x7f040029;
+        public static final int type_here=0x7f040016;
+        public static final int unknown_item_clicked=0x7f040008;
+        public static final int yellow=0x7f040011;
     }
 }

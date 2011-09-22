@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Нароид - Примерное Андроид Приложение</string>
-    <string name="app_name_basic">Нароид - Примерное Андроид Приложение - Базовые</string>
-    <string name="app_name_advanced">Нароид - Примерное Андроид Приложение - Продвинутые</string>
+    <string name="app_name_basic">Базовые | Нароид - Примерное Андроид Приложение</string>
+    <string name="app_name_basic_layouts">Макеты | Базовые | Нароид - Примерное Андроид Приложение</string>
+    <string name="app_name_basic_widgets">Виджеты | Базовые | Нароид - Примерное Андроид Приложение</string>
+    <string name="app_name_advanced">Продвинутые | Нароид - Примерное Андроид Приложение</string>
     <string-array name="launcher_list">
         <item>Базовые</item>
         <item>Продвинутые</item>
@@ -15,12 +17,26 @@
         <item>Авто Ссылки</item>
         <item>Полоса Прокрутки</item>
         <item>Меню</item>
+        <item>Макеты и Виды</item>
+        <item>Виджеты и Другие Виды</item>
+    </string-array>
+    <string-array name="layouts_views">
         <item>Линейный Макет</item>
         <item>Относительный Макет</item>
         <item>Табличный Макет</item>
         <item>Сеточный Вид</item>
         <item>Макет Вкладок</item>
         <item>Список</item>
+    </string-array>
+    <string-array name="widgets_other_views">
+        <item>Выбор Даты</item>
+        <item>Выбор Времени</item>
+        <item>Форма</item>
+        <item>Выпадающий Список</item>
+        <item>Авто Заполнение</item>
+        <item>Галерея</item>
+        <item>Вид Гугл Карт</item>
+        <item>Веб Вид</item>
     </string-array>
     <string-array name="advanced_samples">
         <item>Локализация</item>
@@ -37,5 +53,6 @@
     <string name="Open">Открыть...</string><string name="Ctrl_O">Ctrl-O</string><string name="Save">Сохранить...</string><string name="Ctrl_S">Ctrl-S</string><string name="Save_As">Сохранить Как...</string><string name="Ctrl_Shift_S">Ctrl-Shift-S</string><string name="Import">Импортировать...</string><string name="X">Х</string><string name="Export">Экспортировать...</string><string name="Ctrl_E">Ctrl-E</string><string name="Quit">Выход</string>
     <string name="Cut">Вырезать</string><string name="Copy">Копировать</string><string name="Paste">Вставить</string><string name="tablayout_cut_page_content">Это вкладка Вырезать"</string><string name="tablayout_copy_page_content">Это вкладка Копировать</string><string name="tablayout_paste_page_content">Это вкладка Вставить.\n\nОна содержит наиболее оптимизированную иконку для вкладки.</string>
     <string-array name="countries_array"><item>Антарктида</item><item>Буркина-Фасо</item><item>Канада</item><item>Китай</item><item>Дания</item><item>Египет</item><item>Финляндия</item><item>Франция</item><item>Германия</item><item>Гаити</item><item>Гонконг</item><item>Индия</item><item>Италия</item><item>Япония</item><item>Кения</item><item>Люксембург</item><item>Мексика</item><item>Молдова</item><item>Нидерланды</item><item>Оман</item><item>Польша</item><item>Россия</item><item>Испания</item><item>Тайвань</item><item>Великобритания</item><item>Соединенные Штаты</item><item>Венесуэла</item><item>Западная Сахара</item><item>Йемен</item><item>Зимбабве</item></string-array>
+    <string name="Change_date">Изменить дату</string>
     <string name="localization_page_content">Локализация заключается лишь в создании альтернативного набора ресурсов в папке <b>res</b>, и андроид автоматически подставит их в соответствующем устройстве.\n\nНапример, чтобы перевести ваше приложение на другой язык, создайте файл <b>/res/values-(ISO 639-1 language code)/strings.xml</b> с переведенным текстом (к примеру values-ru, values-en-rGB и т.д.). Пожалуйста не забудьте создать и ресурс по умолчанию (к примеру /res/values/strings.xml).\n\nЗа деталями обращайтесь на http://developer.android.com/guide/topics/resources/localization.html</string>
 </resources>

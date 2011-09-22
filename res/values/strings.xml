@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Naroid - Sample Android App</string>
-    <string name="app_name_basic">Naroid - Sample Android App - Basic</string>
-    <string name="app_name_advanced">Naroid - Sample Android App - Advanced</string>
+    <string name="app_name_basic">Basic | Naroid - Sample Android App</string>
+    <string name="app_name_basic_layouts">Layouts | Basic | Naroid - Sample Android App</string>
+    <string name="app_name_basic_widgets">Widgets | Basic | Naroid - Sample Android App</string>
+    <string name="app_name_advanced">Advanced | Naroid - Sample Android App</string>
     <string-array name="launcher_list">
         <item>Basic</item>
         <item>Advanced</item>
@@ -15,12 +17,26 @@
         <item>Auto Links</item>
         <item>Scrollbar</item>
         <item>Menu</item>
+        <item>Layouts and Views</item>
+        <item>Widgets and Other Views</item>
+    </string-array>
+    <string-array name="layouts_views">
         <item>Linear Layout</item>
         <item>Relative Layout</item>
         <item>Table Layout</item>
         <item>Grid View</item>
         <item>Tab Layout</item>
         <item>List View</item>
+    </string-array>
+    <string-array name="widgets_other_views">
+        <item>Date Picker</item>
+        <item>Time Picker</item>
+        <item>Form Stuff</item>
+        <item>Spinner</item>
+        <item>Auto Complete</item>
+        <item>Gallery</item>
+        <item>Google Map View</item>
+        <item>Web View</item>
     </string-array>
     <string-array name="advanced_samples">
         <item>Localization</item>
@@ -37,5 +53,6 @@
     <string name="Open">Open...</string><string name="Ctrl_O">Ctrl-O</string><string name="Save">Save...</string><string name="Ctrl_S">Ctrl-S</string><string name="Save_As">Save As...</string><string name="Ctrl_Shift_S">Ctrl-Shift-S</string><string name="Import">Import...</string><string name="X">X</string><string name="Export">Export...</string><string name="Ctrl_E">Ctrl-E</string><string name="Quit">Quit</string>
     <string name="Cut">Cut</string><string name="Copy">Copy</string><string name="Paste">Paste</string><string name="tablayout_cut_page_content">This is the Cut tab</string><string name="tablayout_copy_page_content">This is the Copy tab</string><string name="tablayout_paste_page_content">This is the Paste tab.\n\nIt has the most optimized icon for tabs.</string>
     <string-array name="countries_array"><item>Antarctica</item><item>Burkina Faso</item><item>Canada</item><item>China</item><item>Denmark</item><item>Egypt</item><item>Finland</item><item>France</item><item>Germany</item><item>Haiti</item><item>Hong Kong</item><item>India</item><item>Italy</item><item>Japan</item><item>Kenya</item><item>Luxembourg</item><item>Mexico</item><item>Moldova</item><item>Netherlands</item><item>Oman</item><item>Poland</item><item>Russia</item><item>Spain</item><item>Taiwan</item><item>United Kingdom</item><item>United States</item><item>Venezuela</item><item>Western Sahara</item><item>Yemen</item><item>Zimbabwe</item></string-array>
+    <string name="Change_date">Change date</string>
     <string name="localization_page_content">Localization is just about creating an alternative set of resources in <b>res</b> folder, and android will automatically substitute it in the appropriate device.\n\nFor example, to translate your application into another language, create <b>/res/values-(ISO 639-1 language code)/strings.xml</b> file with translated strings (e.g. values-ru, values-en-rGB and so on). Please make sure to include a default resource (e.g. /res/values/strings.xml).\n\nSee http://developer.android.com/guide/topics/resources/localization.html for more information.</string>
 </resources>

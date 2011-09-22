@@ -22,21 +22,33 @@
         <activity android:name=".AdvancedSamplesActivity"
                   android:label="@string/app_name_advanced">
         </activity>
+
         <activity android:name=".HelloWorldActivity" android:label="@string/app_name_basic"></activity>
         <activity android:name=".AutoLinksActivity" android:label="@string/app_name_basic"></activity>
         <activity android:name=".ScrollbarActivity" android:label="@string/app_name_basic"></activity>
         <activity android:name=".MenuActivity" android:label="@string/app_name_basic"></activity>
         <activity android:name=".ScrollbarActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".LinearLayoutActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".RelativeLayoutActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".TableLayoutActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".GridViewActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".TabLayoutActivity" android:label="@string/app_name_basic"
+        <activity android:name=".LayoutsViewsActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".LinearLayoutActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".RelativeLayoutActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".TableLayoutActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".GridViewActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".TabLayoutActivity" android:label="@string/app_name_basic_layouts"
                   android:theme="@android:style/Theme.NoTitleBar"></activity>
-        <activity android:name=".TabLayoutCutActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".TabLayoutCopyActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".TabLayoutPasteActivity" android:label="@string/app_name_basic"></activity>
-        <activity android:name=".ListViewActivity" android:label="@string/app_name_basic"></activity>
+        <activity android:name=".TabLayoutCutActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".TabLayoutCopyActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".TabLayoutPasteActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".ListViewActivity" android:label="@string/app_name_basic_layouts"></activity>
+        <activity android:name=".WidgetsOtherViewsActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".DatePickerActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".TimePickerActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".FormStuffActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".SpinnerActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".AutoCompleteActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".GalleryActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".GoogleMapViewActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".WebViewActivity" android:label="@string/app_name_basic_widgets"></activity>
+
         <activity android:name=".LocalizationActivity" android:label="@string/app_name_advanced"></activity>
 
     </application>

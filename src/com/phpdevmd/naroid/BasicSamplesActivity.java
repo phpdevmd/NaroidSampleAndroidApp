@@ -46,27 +46,11 @@ public class BasicSamplesActivity extends BaseListActivity {
     		startActivity(intent);
     	} else if (id == 4) {
     		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), LinearLayoutActivity.class);
+    		intent.setClass(getApplicationContext(), LayoutsViewsActivity.class);
     		startActivity(intent);
     	} else if (id == 5) {
     		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), RelativeLayoutActivity.class);
-    		startActivity(intent);
-    	} else if (id == 6) {
-    		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), TableLayoutActivity.class);
-    		startActivity(intent);
-    	} else if (id == 7) {
-    		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), GridViewActivity.class);
-    		startActivity(intent);
-    	} else if (id == 8) {
-    		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), TabLayoutActivity.class);
-    		startActivity(intent);
-    	} else if (id == 9) {
-    		Intent intent = new Intent();
-    		intent.setClass(getApplicationContext(), ListViewActivity.class);
+    		intent.setClass(getApplicationContext(), WidgetsOtherViewsActivity.class);
     		startActivity(intent);
     	} else {
     		String toast_text = getResources().getString(R.string.unknown_item_clicked, text);
