@@ -28,9 +28,9 @@ public class WidgetsOtherViewsActivity extends BaseListActivity {
     	if (id == 0) {
     		intent.setClass(getApplicationContext(), DatePickerActivity.class);
     	} else if (id == 1) {
-    		intent.setClass(getApplicationContext(), DatePickerActivity.class);
+    		intent.setClass(getApplicationContext(), TimePickerActivity.class);
     	} else if (id == 2) {
-    		intent.setClass(getApplicationContext(), DatePickerActivity.class);
+    		intent.setClass(getApplicationContext(), FormStuffActivity.class);
     	} else if (id == 3) {
     		intent.setClass(getApplicationContext(), DatePickerActivity.class);
     	} else if (id == 4) {
