@@ -59,5 +59,6 @@
     <string name="Red">Красный</string><string name="Blue">Синий</string>
     <string name="Vibrate_on">Вибрация включена</string><string name="Vibrate_off">Вибрация выключена</string><string name="Checked">Включено</string><string name="Not_checked">Выключено</string>
     <string name="New_Rating">Новый Рейтинг: %s</string>
+    <string name="planet_prompt">Выберите планету</string><string-array name="planets_array"><item>Меркурий</item><item>Венера</item><item>Земля</item><item>Марс</item><item>Юпитер</item><item>Сатурн</item><item>Уран</item><item>Нептун</item></string-array><string name="The_planet_is">Вы выбрали планету %s</string>
     <string name="localization_page_content">Локализация заключается лишь в создании альтернативного набора ресурсов в папке <b>res</b>, и андроид автоматически подставит их в соответствующем устройстве.\n\nНапример, чтобы перевести ваше приложение на другой язык, создайте файл <b>/res/values-(ISO 639-1 language code)/strings.xml</b> с переведенным текстом (к примеру values-ru, values-en-rGB и т.д.). Пожалуйста не забудьте создать и ресурс по умолчанию (к примеру /res/values/strings.xml).\n\nЗа деталями обращайтесь на http://developer.android.com/guide/topics/resources/localization.html</string>
 </resources>

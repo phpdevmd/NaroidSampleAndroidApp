@@ -14,6 +14,7 @@ public final class R {
         public static final int countries_array=0x7f050005;
         public static final int launcher_list=0x7f050000;
         public static final int layouts_views=0x7f050002;
+        public static final int planets_array=0x7f050006;
         public static final int widgets_other_views=0x7f050003;
     }
     public static final class attr {
@@ -47,22 +48,23 @@ public final class R {
         public static final int sample_7=0x7f020019;
     }
     public static final class id {
-        public static final int about=0x7f070010;
+        public static final int about=0x7f070011;
         public static final int button=0x7f070002;
         public static final int checkbox=0x7f070004;
         public static final int dateDisplay=0x7f070000;
         public static final int edittext=0x7f070003;
         public static final int entry=0x7f07000b;
         public static final int gridview=0x7f070009;
-        public static final int home=0x7f07000f;
+        public static final int home=0x7f070010;
         public static final int label=0x7f07000a;
         public static final int ok=0x7f07000c;
         public static final int pickDate=0x7f070001;
-        public static final int pickTime=0x7f07000e;
+        public static final int pickTime=0x7f07000f;
         public static final int radio_blue=0x7f070006;
         public static final int radio_red=0x7f070005;
         public static final int ratingbar=0x7f070008;
-        public static final int timeDisplay=0x7f07000d;
+        public static final int spinner=0x7f07000d;
+        public static final int timeDisplay=0x7f07000e;
         public static final int togglebutton=0x7f070007;
     }
     public static final class layout {
@@ -77,12 +79,13 @@ public final class R {
         public static final int menu=0x7f030008;
         public static final int relative_layout=0x7f030009;
         public static final int scrollbar=0x7f03000a;
-        public static final int tab_layout=0x7f03000b;
-        public static final int tablayout_copy=0x7f03000c;
-        public static final int tablayout_cut=0x7f03000d;
-        public static final int tablayout_paste=0x7f03000e;
-        public static final int table_layout=0x7f03000f;
-        public static final int time_picker=0x7f030010;
+        public static final int spinner=0x7f03000b;
+        public static final int tab_layout=0x7f03000c;
+        public static final int tablayout_copy=0x7f03000d;
+        public static final int tablayout_cut=0x7f03000e;
+        public static final int tablayout_paste=0x7f03000f;
+        public static final int table_layout=0x7f030010;
+        public static final int time_picker=0x7f030011;
     }
     public static final class menu {
         public static final int main=0x7f060000;
@@ -113,6 +116,7 @@ public final class R {
         public static final int Save=0x7f04001b;
         public static final int Save_As=0x7f04001d;
         public static final int Selected=0x7f04002e;
+        public static final int The_planet_is=0x7f040038;
         public static final int Vibrate_off=0x7f040033;
         public static final int Vibrate_on=0x7f040032;
         public static final int X=0x7f040020;
@@ -129,9 +133,10 @@ public final class R {
         public static final int green=0x7f04000f;
         public static final int hello_world=0x7f040009;
         public static final int home=0x7f040005;
-        public static final int localization_page_content=0x7f040037;
+        public static final int localization_page_content=0x7f040039;
         public static final int lorem_ipsum_1_line=0x7f04000c;
         public static final int menu_page_content=0x7f04000d;
+        public static final int planet_prompt=0x7f040037;
         public static final int red=0x7f040010;
         public static final int row_four=0x7f040015;
         public static final int row_one=0x7f040012;

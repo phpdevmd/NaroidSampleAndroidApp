@@ -59,5 +59,6 @@
     <string name="Red">Red</string><string name="Blue">Blue</string>
     <string name="Vibrate_on">Vibrate on</string><string name="Vibrate_off">Vibrate off</string><string name="Checked">Checked</string><string name="Not_checked">Not checked</string>
     <string name="New_Rating">New Rating: %s</string>
+    <string name="planet_prompt">Choose a planet</string><string-array name="planets_array"><item>Mercury</item><item>Venus</item><item>Earth</item><item>Mars</item><item>Jupiter</item><item>Saturn</item><item>Uranus</item><item>Neptune</item></string-array><string name="The_planet_is">The planet is %s</string>
     <string name="localization_page_content">Localization is just about creating an alternative set of resources in <b>res</b> folder, and android will automatically substitute it in the appropriate device.\n\nFor example, to translate your application into another language, create <b>/res/values-(ISO 639-1 language code)/strings.xml</b> file with translated strings (e.g. values-ru, values-en-rGB and so on). Please make sure to include a default resource (e.g. /res/values/strings.xml).\n\nSee http://developer.android.com/guide/topics/resources/localization.html for more information.</string>
 </resources>

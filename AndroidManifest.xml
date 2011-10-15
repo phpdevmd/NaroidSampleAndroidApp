@@ -44,6 +44,7 @@
         <activity android:name=".TimePickerActivity" android:label="@string/app_name_basic_widgets"></activity>
         <activity android:name=".FormStuffActivity" android:label="@string/app_name_basic_widgets"></activity>
         <activity android:name=".SpinnerActivity" android:label="@string/app_name_basic_widgets"></activity>
+        <activity android:name=".SpinnerOnItemSelectedListener" android:label="@string/app_name_basic_widgets"></activity>
         <activity android:name=".AutoCompleteActivity" android:label="@string/app_name_basic_widgets"></activity>
         <activity android:name=".GalleryActivity" android:label="@string/app_name_basic_widgets"></activity>
         <activity android:name=".GoogleMapViewActivity" android:label="@string/app_name_basic_widgets"></activity>
