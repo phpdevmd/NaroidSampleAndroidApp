@@ -34,7 +34,7 @@ public class WidgetsOtherViewsActivity extends BaseListActivity {
     	} else if (id == 3) {
     		intent.setClass(getApplicationContext(), SpinnerActivity.class);
     	} else if (id == 4) {
-    		intent.setClass(getApplicationContext(), DatePickerActivity.class);
+    		intent.setClass(getApplicationContext(), AutoCompleteActivity.class);
     	} else if (id == 5) {
     		intent.setClass(getApplicationContext(), DatePickerActivity.class);
     	} else if (id == 6) {
