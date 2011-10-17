@@ -48,24 +48,25 @@ public final class R {
         public static final int sample_7=0x7f020019;
     }
     public static final class id {
-        public static final int about=0x7f070012;
+        public static final int about=0x7f070013;
         public static final int autocomplete_country=0x7f070000;
         public static final int button=0x7f070003;
         public static final int checkbox=0x7f070005;
         public static final int dateDisplay=0x7f070001;
         public static final int edittext=0x7f070004;
-        public static final int entry=0x7f07000c;
-        public static final int gridview=0x7f07000a;
-        public static final int home=0x7f070011;
-        public static final int label=0x7f07000b;
-        public static final int ok=0x7f07000d;
+        public static final int entry=0x7f07000d;
+        public static final int gallery=0x7f07000a;
+        public static final int gridview=0x7f07000b;
+        public static final int home=0x7f070012;
+        public static final int label=0x7f07000c;
+        public static final int ok=0x7f07000e;
         public static final int pickDate=0x7f070002;
-        public static final int pickTime=0x7f070010;
+        public static final int pickTime=0x7f070011;
         public static final int radio_blue=0x7f070007;
         public static final int radio_red=0x7f070006;
         public static final int ratingbar=0x7f070009;
-        public static final int spinner=0x7f07000e;
-        public static final int timeDisplay=0x7f07000f;
+        public static final int spinner=0x7f07000f;
+        public static final int timeDisplay=0x7f070010;
         public static final int togglebutton=0x7f070008;
     }
     public static final class layout {
@@ -74,21 +75,22 @@ public final class R {
         public static final int auto_links=0x7f030002;
         public static final int date_picker=0x7f030003;
         public static final int form_stuff=0x7f030004;
-        public static final int grid_view=0x7f030005;
-        public static final int hello_world=0x7f030006;
-        public static final int linear_layout=0x7f030007;
-        public static final int list_item=0x7f030008;
-        public static final int localization=0x7f030009;
-        public static final int menu=0x7f03000a;
-        public static final int relative_layout=0x7f03000b;
-        public static final int scrollbar=0x7f03000c;
-        public static final int spinner=0x7f03000d;
-        public static final int tab_layout=0x7f03000e;
-        public static final int tablayout_copy=0x7f03000f;
-        public static final int tablayout_cut=0x7f030010;
-        public static final int tablayout_paste=0x7f030011;
-        public static final int table_layout=0x7f030012;
-        public static final int time_picker=0x7f030013;
+        public static final int gallery=0x7f030005;
+        public static final int grid_view=0x7f030006;
+        public static final int hello_world=0x7f030007;
+        public static final int linear_layout=0x7f030008;
+        public static final int list_item=0x7f030009;
+        public static final int localization=0x7f03000a;
+        public static final int menu=0x7f03000b;
+        public static final int relative_layout=0x7f03000c;
+        public static final int scrollbar=0x7f03000d;
+        public static final int spinner=0x7f03000e;
+        public static final int tab_layout=0x7f03000f;
+        public static final int tablayout_copy=0x7f030010;
+        public static final int tablayout_cut=0x7f030011;
+        public static final int tablayout_paste=0x7f030012;
+        public static final int table_layout=0x7f030013;
+        public static final int time_picker=0x7f030014;
     }
     public static final class menu {
         public static final int main=0x7f060000;
@@ -154,4 +156,25 @@ public final class R {
         public static final int unknown_item_clicked=0x7f040008;
         public static final int yellow=0x7f040011;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a GalleryActivity.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GalleryActivity_android_galleryItemBackground com.phpdevmd.naroid:android_galleryItemBackground}</code></td><td></td></tr>
+           </table>
+           @see #GalleryActivity_android_galleryItemBackground
+         */
+        public static final int[] GalleryActivity = {
+            0x0101004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.phpdevmd.naroid.R.attr#android_galleryItemBackground}
+          attribute's value can be found in the {@link #GalleryActivity} array.
+          @attr name android:android_galleryItemBackground
+        */
+        public static final int GalleryActivity_android_galleryItemBackground = 0;
+    };
 }
